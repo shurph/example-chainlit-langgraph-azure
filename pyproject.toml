@@ -1,0 +1,33 @@
+[project]
+name = "example-chainlit-langgraph-azure"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Mikalai",email = "mikalai@dev.local"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "langchain (>=0.3.25,<0.4.0)",
+    "langchain-openai (>=0.3.16,<0.4.0)",
+    "langchain-community (>=0.3.23,<0.4.0)",
+    "langgraph (>=0.4.2,<0.5.0)",
+    "chainlit (>=2.5.5,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+package-mode = false
+packages = [
+    { include = "app" }
+]
+
+# [tool.poetry.scripts]
+# chainlit-dev = "chainlit.cli:main"

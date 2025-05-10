@@ -1,0 +1,11 @@
+.env
+*.cpython*
+.venv
+__pycache__
+*.pyc
+
+
+.chainlit/translations/*
+
+!.chainlit/translations/en-US.json
+poetry.lock

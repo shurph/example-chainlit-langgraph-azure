@@ -1,0 +1,16 @@
+.welcome-screen .logo {
+    display: none
+}
+
+#readme-button,
+#theme-toggle {
+    display: none
+}
+
+#new-chat-button {
+    display: none
+}
+
+img[alt="Avatar for LangGraph"] {
+    display: none;
+}
