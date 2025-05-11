@@ -34,7 +34,7 @@ See `.env.example` for used env vars.
 To run the project in development mode with hot-reload enabled:
 
 ```bash
-poetry run chainlit run app.py --port 8042 -w
+poetry run chainlit run entrypoint.py --port 8042 -w
 ```
 
 This will:
